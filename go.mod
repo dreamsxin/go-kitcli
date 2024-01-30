@@ -1,4 +1,4 @@
-module github.com/GrantZheng/kit
+module github.com/dreamsxin/go-kitcli
 
 go 1.17
 

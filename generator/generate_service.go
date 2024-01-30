@@ -6,9 +6,9 @@ import (
 	"strings"
 
 	"github.com/dave/jennifer/jen"
-	"github.com/GrantZheng/kit/fs"
-	"github.com/GrantZheng/kit/parser"
-	"github.com/GrantZheng/kit/utils"
+	"github.com/dreamsxin/go-kitcli/fs"
+	"github.com/dreamsxin/go-kitcli/parser"
+	"github.com/dreamsxin/go-kitcli/utils"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 )

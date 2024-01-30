@@ -1,4 +1,4 @@
-# GoKit CLI  [![Build Status](https://github.com/GrantZheng/kit/workflows/Go/badge.svg)](https://github.com/GrantZheng/kit/actions)[![Go Report Card](https://goreportcard.com/badge/github.com/GrantZheng/kit)](https://goreportcard.com/report/github.com/GrantZheng/kit)[![Coverage Status](https://coveralls.io/repos/github/GrantZheng/kit/badge.svg?branch=master)](https://coveralls.io/github/GrantZheng/kit?branch=master)
+# GoKit CLI  [![Build Status](https://github.com/dreamsxin/go-kitcli/workflows/Go/badge.svg)](https://github.com/dreamsxin/go-kitcli/actions)[![Go Report Card](https://goreportcard.com/badge/github.com/dreamsxin/go-kitcli)](https://goreportcard.com/report/github.com/dreamsxin/go-kitcli)[![Coverage Status](https://coveralls.io/repos/github/GrantZheng/kit/badge.svg?branch=master)](https://coveralls.io/github/GrantZheng/kit?branch=master)
 
 translate to: [English](./README.md) | 简体中文  
 
@@ -18,9 +18,9 @@ gokit cli 是一个可以在你开发微服务时帮助你的工具，它是[gk]
   gokit cli使用`kit generate  service <SERVICE_NAME> -t grpc`来生成gRPC代码，所以你需要安装[Protocol Buffer]()和[gRPC需要的环境](https://grpc.io/docs/languages/go/quickstart/)
 
 使用以下命令安装protocol编译器的Go插件
-```
-go install google.golang.org/protobuf/cmd/protoc-gen-go@v1.26
-go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@v1.1
+```shell
+go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
+go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@latest
 ```
 
 # Table of Content
@@ -37,12 +37,12 @@ go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@v1.1
 
 ```bash
 # in the go1.17 or latest
-go install github.com/GrantZheng/kit@latest
+go install github.com/dreamsxin/go-kitcli@latest
 
 # go version =< go1.16 
-go install github.com/GrantZheng/kit
+go install github.com/dreamsxin/go-kitcli
 # or
-go get -u github.com/GrantZheng/kit
+go get -u github.com/dreamsxin/go-kitcli
 ```
 
 

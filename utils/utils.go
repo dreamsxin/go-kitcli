@@ -8,7 +8,7 @@ import (
 
 	"fmt"
 
-	"github.com/GrantZheng/kit/fs"
+	"github.com/dreamsxin/go-kitcli/fs"
 	"github.com/alioygur/godash"
 	"github.com/spf13/viper"
 	"golang.org/x/tools/imports"

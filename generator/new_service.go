@@ -8,8 +8,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/GrantZheng/kit/fs"
-	"github.com/GrantZheng/kit/utils"
+	"github.com/dreamsxin/go-kitcli/fs"
+	"github.com/dreamsxin/go-kitcli/utils"
 	"github.com/dave/jennifer/jen"
 	"github.com/spf13/viper"
 )

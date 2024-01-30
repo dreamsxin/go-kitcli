@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"github.com/GrantZheng/kit/generator"
-	"github.com/GrantZheng/kit/utils"
+	"github.com/dreamsxin/go-kitcli/generator"
+	"github.com/dreamsxin/go-kitcli/utils"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
